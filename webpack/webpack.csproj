@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+    <Folder Include="wwwroot\scss\" />
+    <Folder Include="wwwroot\js\vue\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\dist\manifest.json" />
+    <Content Remove="wwwroot\css\test.css" />
+    <Content Remove="wwwroot\scss\main.scss" />
+    <Content Remove="wwwroot\js\vue\Component.vue" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\css\test.css" />
+    <None Include="wwwroot\scss\main.scss" />
+    <None Include="wwwroot\js\vue\Component.vue" />
+  </ItemGroup>
+</Project>

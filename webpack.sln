@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webpack", "webpack\webpack.csproj", "{3EA0FC45-8E42-40A1-8F58-D417A4218116}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EA0FC45-8E42-40A1-8F58-D417A4218116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA0FC45-8E42-40A1-8F58-D417A4218116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA0FC45-8E42-40A1-8F58-D417A4218116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA0FC45-8E42-40A1-8F58-D417A4218116}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

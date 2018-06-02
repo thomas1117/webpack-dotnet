@@ -1,0 +1,12 @@
+﻿@import "variables";
+
+body {
+    h2 {
+        color: blue;
+        font-size: $font-sm;
+    }
+
+    ::placeholder {
+        color: rebeccapurple;
+    }
+}
